@@ -1,6 +1,6 @@
 public class Sorter {
 
-    void sort(int arr[])
+    void selectionSort(int arr[])
     {
         int n = arr.length;
  
@@ -53,6 +53,10 @@ public class Sorter {
         for(int i:arr1){    
             System.out.print(i+" ");    
         }    
-    }    
+    }   
+    
+    void sort(int[] array) {
+        selectionSort(array);
+    }
     
 }
