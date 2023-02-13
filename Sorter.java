@@ -1,6 +1,6 @@
 public class Sorter {
 
-    void selectionsort(int arr[])
+    
     void selectionSort(int arr[])
     {
         int n = arr.length;
@@ -38,7 +38,7 @@ public class Sorter {
             array[i+1] = key;  
         }  
     }
-    void sort(int array[]) {
+    void sortCallB(int array[]) {
         int[] x = array;
         insertionSort(x);
     }
@@ -60,7 +60,7 @@ public class Sorter {
         }    
     }   
     
-    void sortCall1(int[] array) {
+    void sortCallA(int[] array) {
         selectionSort(array);
     }
     
