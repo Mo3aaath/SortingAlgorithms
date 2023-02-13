@@ -1,6 +1,6 @@
 public class Sorter {
 
-    void sort(int arr[])
+    void selectionsort(int arr[])
     {
         int n = arr.length;
  
@@ -36,6 +36,10 @@ public class Sorter {
             }  
             array[i+1] = key;  
         }  
+    }
+    void sort(int array[]) {
+        int[] x = array;
+        insertionSort(x);
     }
     
        
